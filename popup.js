@@ -1,0 +1,23 @@
+﻿$(document).ready(function(){
+$("#answer").click(function(){
+    $("p").hide();
+});
+$("button").click(function(){
+    var timu = $("input[name='timu']").val()
+    if(timu==''){
+        alert('请输入题目')
+    }else{
+         $.post("https://api.chaoxing360.com/exam/search/question/token/d67b8ee7c02111e9a2990235d2b38928",
+        {
+            type:"type",
+            question:timu
+        },
+        function(data,status){
+            $("p").after(JSON.parse(data).data.answer);
+            $("#answer").click(function(){
+                 $("div").show();
+            });
+        });   
+    }
+  })
+});
