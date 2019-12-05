@@ -1,5 +1,6 @@
 # 超星查题
-
+### 关注我们
+ ![南泰校园](https://github.com/danyanp/chaoxingchati/blob/master/qrcode.jpg?raw=true)
 ## 超星划题查题
 - 划题选中题目
 - 后台获取题目，查询
