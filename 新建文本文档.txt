@@ -1,0 +1,13 @@
+POST /cx/0/%E6%8A%8A%E4%BF%84%E7%BD%97%E6%96%AF%E4%BB%8E%E5%8D%8A%E5%86%9C%E5%A5%B4%E5%88%B6%E5%9B%BD%E5%AE%B6%E5%BC%95%E5%90%91%E4%BA%86%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E9%81%93%E8%B7%AF%E7%9A%84%E6%98%AF()%E3%80%82 HTTP/1.1
+Host: mooc.forestpolice.org
+Content-Length: 76
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Content-type: application/x-www-form-urlencoded
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: UM_distinctid=16ec0e127c0bb-06fb5c3b16c1cc-36664c08-1fa400-16ec0e127c127d; PHPSESSID=gvl52344p9tqdmn9822eoa3so4
+Connection: close
+
+course=%E4%B8%AD%E5%8D%8E%E6%B0%91%E6%97%8F%E7%B2%BE%E7%A5%9E&type=0&option=
+

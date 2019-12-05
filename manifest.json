@@ -1,6 +1,6 @@
 {
 	"name" : "超星查题" ,
-	"description" : "支持超星题目查找" ,
+	"description" : "超星划题目查找" ,
 	"manifest_version" : 2 ,
 	"version" : "1.0.0" ,
 	"author": "单眼皮",

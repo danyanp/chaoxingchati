@@ -1,27 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8"/>
-	<title>超星查题</title>
-	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-<link rel="stylesheet" href="css/bootstrap.css" crossorigin="anonymous">
-<script src="jQuery.js"></script>
-</head>
-<body>
-	<div class="page-header" style="padding-left: 10px;">
-		<h3>超星查题<small><a href="https://www.baidu.com">by@danyanpi</a></small></h3>
-	</div>
-	<div style="width: 300px;padding: 10px;">
-		<input type="text" name="timu"  class="form-control" placeholder="请输入题目">
-		<button class="btn btn-primary btn-sm btn-block" style="margin-top: 10px;">查询</button>
-		<div id='answer'>
-			<p>答案</p>
-		</div>
-	</div>
 
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="connect.js"></script>
-	<script type="text/javascript" src="bg.js"></script>
-	<script type="text/javascript" src="popup.js"></script>
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<title>超星查题</title>
+		<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="jQuery.js"></script>
+
+	</head>
+
+	<body>
+		<div class="page-header" style="padding-left: 10px;">
+			<h3>超星查题<small><a target="_blank" href="https://github.com/danyanp/chaoxingchati">by@danyanp</a></small></h3>
+			<img src="qrcode.jpg" alt="南泰校园" style="width: 100px;height: 100px;">
+			<p>如果对你有帮助请关注我们哦~~~</p>
+		</div>
+		<div style="width: 300px;padding: 10px;">
+			<input type="text" name="timu" class="form-control" placeholder="请输入题目">
+			<button class="btn btn-primary btn-sm btn-block" style="margin-top: 10px;">查询</button>
+			<div id='answer'>
+				<p>答案</p>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="popup.js"></script>
+		<!-- <script src="http://wx.quanon.cn/query.php?token=390e629fdb757853ebfa8aca6344ab7b&question=1"></script>
+		<script type="text/javascript" src="http://wx.quanon.cn/query.php?callback=jsonpCallback" />
+			//回调函数
+			function jsonpCallback(content){ 
+				alert(content);
+		 	} 
+		</script> -->
+		<!-- <script type="text/javascript">
+			$.ajax({ 
+			 type: "post",
+			 async: false, 
+			 url: "http://wx.quanon.cn/query.php", 
+			 dataType: "jsonp",
+			 data:{'token':'390e629fdb757853ebfa8aca6344ab7b','question':'1'}, 
+			success: function (data) { 
+			   alert(data);
+			  }, 
+			error: function () { 
+			   alert('fail');
+			 } 
+		   }); 
+		</script> -->
+	</body>
 </html>
