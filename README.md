@@ -1,10 +1,18 @@
 # 超星查题
 ### 关注我们
- ![南泰校园](https://github.com/danyanp/chaoxingchati/blob/master/qrcode.jpg?raw=true)
+![南泰校园](https://github.com/danyanp/chaoxingchati/blob/master/qrcode.jpg?raw=true)
 ## 超星划题查题
 - 划题选中题目
 - 后台获取题目，查询
 - 返回题目答案
+## 使用
+### 1.在地址栏输入 
+```
+chrome://extensions/
+```
+### 2.选着开发者模式
+### 3.
+![安装](https://github.com/danyanp/chaoxingchati/blob/master/%E4%BD%BF%E7%94%A8.png?raw=true)
 - # manifest.json文件
 ```
 {
