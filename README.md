@@ -11,7 +11,7 @@
 chrome://extensions/
 ```
 ### 2.选着开发者模式
-### 3.
+### 3.解压下载压缩包，并加载已解压的扩展程序
 ![安装](https://github.com/danyanp/chaoxingchati/blob/master/%E4%BD%BF%E7%94%A8.png?raw=true)
 - # manifest.json文件
 ```
